@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực hành form</title>
+</head>
+<body>
+    <h2>Creat Account</h2>
+    <fieldset>
+        <legend>Registration information</legend>
+        <label ><b>First Name*:</b></label>
+        <input type="text" name="First Name" id="FirstName" placeholder="enter your first name">
+        <label ><b>Last Name*:</b></label> 
+        <input type="text" name="Last Name" id="LastName" placeholder="enter your last name"><br />
+        <label ><b>Email:</b></label>
+        <input type="text" name="Email" id="Email" placeholder="enter your email">
+        <label ><b>Phone*:</b></label>
+        <input type="text" name="Phone" id="Phone" placeholder="enter your phone number"><br />
+        <label ><b>PassWord*:</b></label>
+        <input type="password" name="Password" id="Password" placeholder="enter your password">
+        <label ><b>Confirm PassWord*:</b></label>
+        <input type="password" name="Password" id="Password" placeholder="enter your password again">
+    </fieldset>
+    <fieldset>
+        <legend>Personal information</legend>
+        <label ><b>Gender:</b></label>
+        <input type="radio" name="Gender" id="Male" value="Male">
+        <label >Male</label>
+        <input type="radio" name="Gender" id="Female" value="Female">
+        <label >Female</label>
+        <label ><b>Hobbies:</b></label>
+        <input type="checkbox" name="Hobbies" id="Music" value="Music">
+        <label >Music</label>
+        <input type="checkbox" name="Hobbies" id="Sports" value="Sports">
+        <label >Sports</label>
+        <input type="checkbox" name="Hobbies" id="Travel" value="Travel">
+        <label >Travel</label>
+        <input type="checkbox" name="Hobbies" id="Movies" value="Movies">
+        <label >Movies</label><br />
+        <label ><b>Source of Income:</b></label>
+        <select >
+            <option value="Employed">Employed</option>
+            <option value="Student">Student</option>
+        </select>
+        <label ><b>Income:</b></label>
+        <input type="range" name="Income" id="income" min="10" max="100"><br />
+        <label ><b>Age:</b></label>
+        <input type="number" name="" id="">
+        <label ><b>Profile Picture:</b></label>
+        <input type="file" name="file" id="file"><br />
+        <label ><b>Birthday:</b></label>
+        <input type="date" name="Birthday" id="Birthday">
+        <label ><b>Address</b></label>
+        <input type="text" name="Address" id="Address"><br />
+        <label ><b>Bio:</b></label>
+        <textarea name="Bio" id="Bio" cols="30" rows="10"></textarea>
+    </fieldset>
+    <input type="submit" value="Create">
+    <input type="reset" value="Reset">
+</body>
+</html>
